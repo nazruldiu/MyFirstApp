@@ -70,4 +70,9 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void GetSignUp(View v){
+        Intent intent = new Intent(getApplicationContext(), SignUp.class);
+        startActivity(intent);
+    }
 }

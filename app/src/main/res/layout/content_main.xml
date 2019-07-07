@@ -63,7 +63,8 @@
             android:background="#65C9D6"
             android:layout_marginRight="20dp"
             android:layout_marginTop="40dp"
-            android:text="Sign Up" />
+            android:text="Sign Up"
+            android:onClick="GetSignUp"/>
 
     </LinearLayout>
 
